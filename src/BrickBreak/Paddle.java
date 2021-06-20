@@ -16,14 +16,21 @@ public class Paddle extends GameObject {
         x+=velocityX;
 
         x = Game.clamp(x, 0, Game.WIDTH-80);
-        checkCollision();
+//        checkCollision();
     }
 
-    private void checkCollision() {
-        for (int i = 0; i<gameHandler.getGameObjects().size();i++) {
-            GameObject temp = gameHandler.getGameObjects().get(i);
-        }
-    }
+//    private void checkCollision() {
+//        for (int i = 0; i<gameHandler.getGameObjects().size();i++) {
+//            GameObject temp = gameHandler.getGameObjects().get(i);
+//
+//            if(temp.id==ID.BALL){
+//                if(this.getBounds().intersects(temp.getBounds())){
+//                    velocityY=velocityY*-1;
+//                }
+//
+//            }
+//        }
+//    }
 
     @Override
     public void render(Graphics g) {
@@ -33,6 +40,6 @@ public class Paddle extends GameObject {
 
     @Override
     public Rectangle getBounds() {
-        return null;
+        return new Rectangle(x, y, 80, 10);
     }
 }
