@@ -16,6 +16,12 @@ public class Game extends Canvas implements Runnable {
         new Window(WIDTH, HEIGHT, "BrickBreak", this);
         handler.add(new Paddle(WIDTH/2-20, HEIGHT-40, ID.PADDLE, handler));
         handler.add(new Ball(WIDTH/2-20, HEIGHT/2-20, ID.BALL, handler));
+        handler.add(new Box(15, 15, ID.BOX, handler));
+        handler.add(new Box(70, 15, ID.BOX, handler));
+        handler.add(new Box(125, 15, ID.BOX, handler));
+        handler.add(new Box(180, 15, ID.BOX, handler));
+        handler.add(new Box(235, 15, ID.BOX, handler));
+        handler.add(new Box(290, 15, ID.BOX, handler));
     }
     @Override
     public void run() {

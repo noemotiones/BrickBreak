@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87322918-196a-42af-bae1-cc15360ebf2e" name="Default Changelist" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/BrickBreak/Ball.java" afterDir="false" />
+    <list default="true" id="87322918-196a-42af-bae1-cc15360ebf2e" name="Default Changelist" comment="Second Commit">
+      <change afterPath="$PROJECT_DIR$/src/BrickBreak/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paranoid/BrickBreak/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paranoid/BrickBreak/GameHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paranoid/BrickBreak/GameObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paranoid/BrickBreak/ID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paranoid/BrickBreak/KeyInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paranoid/BrickBreak/Paddle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paranoid/BrickBreak/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BrickBreak/BrickBreak/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BrickBreak/BrickBreak/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BrickBreak/BrickBreak/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BrickBreak/BrickBreak/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BrickBreak/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrickBreak/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BrickBreak/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrickBreak/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrickBreak/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrickBreak/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrickBreak/Paddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrickBreak/Paddle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +80,26 @@
       <option name="project" value="LOCAL" />
       <updated>1623257097557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Commit">
+      <created>1624209379682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624209379682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Second Commit">
+      <created>1624209530739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624209530739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
   </component>
 </project>

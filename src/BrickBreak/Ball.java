@@ -34,7 +34,15 @@ public class Ball extends GameObject{
             if(temp.getId()==ID.PADDLE){
                 if(this.getBounds().intersects(temp.getBounds())){
                     velocityY*=-1;
-
+                }
+            }else if(temp.id==ID.BOX){
+                if(this.getBounds().intersects(temp.getBounds())){
+//                    velocityY*=-1;
+                    if(this.y<=temp.y+5|| this.y >= temp.y + 28){
+                        velocityY*=-1;
+                    }else if(this.x<=temp.x+5 || this.x >=temp.x+45){
+                        velocityX*=-1;
+                    }
                 }
             }
         }
